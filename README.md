@@ -15,11 +15,13 @@ Prerequisites
 🐧 A Debian-based Linux system (e.g., Debian, Ubuntu, Mint, etc) <br />
 🔑 Root access to the system
 
- Multiple security levels Script Wizard
+ Easy Terminal Based Wizard Install Script: 3 Security Choices 
 
 🧑‍🎓 Padawan: Strong security enhancements
 🧙‍♂️ Jedi: Adds Google Authenticator
 🧙‍♀️ CP Wizard: Also adds SSH keypair generation
+
+Tip: If you are new to this, I recommend choosing the Jedi mode and creating a non-root user when prompted by the Wizard. Setting up SSH keys can be challenging for those without technical expertise, and the Jedi mode still provides excellent, A+ level security.
 
  Features
 
@@ -31,8 +33,8 @@ Prerequisites
 🔑 Optional: SSH KeyPair
 🚫 Fail2ban setup for intrusion prevention
 🔥 Firewall (UFW) configuration
-🛡️ AppArmor enforcement
-🦠 ClamAV antivirus setup
+🛡️ AppArmor enforcement 
+🦠 ClamAV antivirus setup <br /><br />
 🛠️ GRUB bootloader security enhancements
 🔏 LUKS encryption setup (placeholder)
 🔐 SSL/TLS configuration (placeholder)
