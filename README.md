@@ -1,6 +1,9 @@
 ☁️🧪 Cloud Potions Hardnix Shield 🛡️
 
- Hardnix Shield is a comprehensive security script designed for Debian-based Linux systems (Ubuntu, Debian, Mint). It automates the process of hardening your system's security by implementing a wide range of best practices and security measures.
+![Hardnix Shield Logo](https://github.com/cloudpotions/Hardnix-Shield/blob/main/Hardnix-Shield.jpg)
+
+
+Hardnix Shield is a comprehensive security script designed for Debian-based Linux systems (Ubuntu, Debian, Mint). It automates the process of hardening your system's security by implementing a wide range of best practices and security measures.
 
 🚀 One Line Installation - Copy into Terminal and press Enter (With Root/Sudo Privileges):
 ```
