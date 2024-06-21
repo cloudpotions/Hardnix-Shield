@@ -12,7 +12,7 @@ curl -O https://raw.githubusercontent.com/cloudpotions/Hardnix-Shield/main/hardn
 
 Prerequisites
 
-🐧 A Debian-based Linux system (e.g., Debian, Ubuntu, Mint, etc)
+🐧 A Debian-based Linux system (e.g., Debian, Ubuntu, Mint, etc) <br />
 🔑 Root access to the system
 
  Multiple security levels Script Wizard
@@ -24,14 +24,15 @@ Prerequisites
  Features
 
 📦 System update and upgrade
-🔐 SSH hardening (disabling root login, change default SSH port, create non-root user with sudo privileges)
+🔐 SSH hardening (change default SSH port, install & update UFW Firewall)
+👤 Non-root user creation with sudo privileges - Disable Root Login
 🔒 Installation and configuration of essential security tools
+🗝️ Optional: Google Authenticator
+🔑 Optional: SSH KeyPair
 🚫 Fail2ban setup for intrusion prevention
 🔥 Firewall (UFW) configuration
 🛡️ AppArmor enforcement
 🦠 ClamAV antivirus setup
-🗝️ Optional: Google Authenticator
-🔑 Optional: SSH KeyPair
 🛠️ GRUB bootloader security enhancements
 🔏 LUKS encryption setup (placeholder)
 🔐 SSL/TLS configuration (placeholder)
@@ -40,16 +41,21 @@ Prerequisites
 📝 Auditd configuration for system auditing
 🛠️ Secure shared memory configuration
 🌐 Network hardening via sysctl
-👤 Non-root user creation with sudo privileges
 
 ⚠️⚠️ Important Notes⚠️⚠️
 
 🚨 This script makes significant changes to your system's configuration. Always review the script before running it.
+
 🧪 It's highly recommended to run this script on a fresh installation or a test system before applying it to a production environment.
+
 🚫 After running the script, it will ask you to disable root login via SSH and create a non-root user with a password. Make sure to carefully copy down the non-root username and password, and have it saved and ready before you load the script. The script will ask you for the new password twice to ensure accuracy.
+
 🔑 The same caution applies if you decide to set up an SSH keypair or Google Authenticator. It is extremely important to copy this information down before you close the terminal; otherwise, you will lose access to your server.
+
 🔢 If you choose to change the SSH port, make note of the new port number to avoid losing access to your system.
+
 💾 Ensure you have backups of all important data before running the script.
+
 🛠️ Some features (like LUKS encryption) are placeholders and require manual setup or customization.
 
 Disclaimer: This script is provided "as is" without any warranties. Use it at your own risk.
