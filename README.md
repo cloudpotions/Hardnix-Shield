@@ -7,7 +7,7 @@ Hardnix Shield is a comprehensive security script designed for Debian-based Linu
 
 🚀 One Line Installation - Copy into Terminal and press Enter (With Root/Sudo Privileges):
 ```
-curl -O https://raw.githubusercontent.com/cloudpotions/Hardnix-Shield/main/hardnix-shield.sh && chmod +x hardnix-shield.sh && sudo ./hardnix-shield.sh
+curl -O https://github.com/cloudpotions/Hardnix-Shield/blob/main/hardnix-shield.sh && chmod +x hardnix-shield.sh && sudo ./hardnix-shield.sh
 ```
 ⚠️ Important Tip: If you are new to this, I recommend choosing the Jedi mode and creating a non-root user when prompted by the Wizard. Setting up SSH keys can be challenging for those without technical expertise, and the Jedi mode still provides excellent, A+ level security.
 
