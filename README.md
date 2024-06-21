@@ -7,7 +7,7 @@ Hardnix Shield is a comprehensive security script designed for Debian-based Linu
 
 🚀 One Line Installation - Copy into Terminal and press Enter (With Root/Sudo Privileges):
 ```
-sudo git clone https://github.com/cloudpotions/hardnix-shield.git && sudo bash hardnix-shield.sh
+curl -O https://raw.githubusercontent.com/cloudpotions/Hardnix-Shield/main/hardnix-shield.sh && chmod +x hardnix-shield.sh && sudo ./hardnix-shield.sh
 ```
 
 Prerequisites
