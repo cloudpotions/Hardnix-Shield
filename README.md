@@ -9,7 +9,7 @@ Hardnix Shield is a comprehensive security script designed for Debian-based Linu
 ```
 COMING SOON
 ```
-⚠️ Important Tip: If you are new to this, I recommend choosing the Jedi mode and creating a non-root user when prompted by the Wizard. Setting up SSH keys can be challenging for those without technical expertise, and the Jedi mode still provides excellent, A+ level security.
+⚠️ Important Tip: This script is ONLY for new servers, do not use a bash script on a production environment!!!  If you are new to this, I recommend choosing the Jedi mode and creating a non-root user when prompted by the Wizard. Setting up SSH keys can be challenging for those without technical expertise, and the Jedi mode still provides excellent, A+ level security.
 
 Prerequisites
 
